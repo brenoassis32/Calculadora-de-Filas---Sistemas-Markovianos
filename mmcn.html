@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="_css/estilo_random.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+	<script type="text/javascript" src="_js/load2.js"></script>
+	<script type="text/javascript" src="_js/random_func.js"></script>
+	<script type="text/javascript" src="_js/random++.js"></script>
+	<meta charset="UTF-8">
+	<title>Sistema de Filas M/M/c:GD/N/inf</title>
+	<meta name="description" content="Página pessoal de Breno Assis">
+	    
+	<meta name="keywords" content="breno assis, cefet, pppro, pesquisa operacional, po, filas, teoria de filas">
+    	
+	<meta name="author" content="Breno Assis">
+	    
+</head>
+<body>
+<div id="wrapper">
+	        
+<div id="innerwrapper">
+				
+<div id="header">
+					
+<h1>Breno Assis</h1>
+					
+					
+<ul id="nav">
+						
+<li>
+<a href="index.html" class="active">Home</a>
+</li>
+						
+<li>
+<a href="otimizacao_em_redes.html" >Otimização em Redes</a>
+</li>
+
+<li>
+<a href="filas.html" >Teoria de Filas</a>
+</li>
+
+<li>
+<a href="simulacao.html" >Simulação</a>
+</li>
+						
+<li>
+<a href="contato.html">Contato</a>
+</li>
+</ul>
+
+<ul id="subnav">
+
+<li>
+<a href="mm1.html">M/M/1</a>
+</li>
+
+<li>
+<a href="mm1n.html">M/M/1/N</a>
+</li>
+
+<li>
+<a href="mmc.html">M/M/c</a>
+</li>
+
+<li>
+<a href="mmcn.html">M/M/c/N</a>
+</li>
+
+</ul>
+				
+				
+</div>
+
+<div id="sidebar">
+                	
+<h2>Acesso direto</h2>
+                    
+<ul class="subnav">
+                        
+<li>
+<a href="http://lattes.cnpq.br/7026944709521992"><b>»</b>Curriculum Lattes</a>
+</li>
+                        
+<li>
+<a href="trabalhos.html"><b>»</b>Trabalhos realizados</a>
+</li>
+                        
+</ul>
+                    
+                    
+<h2>Downloads</h2>
+                    
+<ul class="subnav">
+                    	
+<li>
+<a href=""><b>»</b>Listas</a>
+</li>
+                    
+</ul>
+                    
+                    
+<h2>Links</h2>
+                    
+<ul class="subnav">
+						
+<li>
+<a href="https://www.linkedin.com/in/breno-assis-4431a6111/"><b>»</b>LinkedIn</a>
+</li>
+                        
+</ul>
+                
+                    
+</div>
+				
+<div id="contentnorightbar">                
+                    
+<div id="div1">
+	<fieldset><legend>Dados de entrada:</legend>
+	<table id="Garestas">
+	<tbody id="Gtab1">
+	<tr id="Gtop"><td >Taxa de Chegada (Lambda)</td><td>Taxa de serviço (Mi)</td><td> Servidores em paralelo (c)</td><td> Comprimento da Fila (N)</td></tr>
+
+	<tr id="Gline0"><td><input type="number" id="GL" name="GL" value='24'/></td><td><input type="number" id="GM" name="GM" value='6'/></td><td><input type="number" id="Gc" name="Gc" value='6' /></td><td><input type="number" id="GN" name="GN" value='10' max='57'/></td></tr>
+
+
+	</tbody>
+	</table>	
+
+	<button style="margin-left: 250px" id="solution" type="button" onclick=run_desempenho_mmcN()>Gerar Métricas</button>
+	<button style="margin-left: 2px" id="report" type="button" onclick=genPDF_filas_mmcN()>Relatório PDF</button>
+	</fieldset>
+	<canvas id="myCanvas" width="650" height="700" style="border:1px solid #d3d3d3; margin-left:20px;"></canvas>
+
+</div>
+
+<h2 id="Refs" style="margin-top: 15px">Referências</h2>
+                    <p>
+                       ARENALES, M. et al., <b>Pesquisa Operacional para Cursos de Engenharia.</b>, Rio de Janeiro: Elsevier, 2007. 
+                    </p>
+                    <p>
+                        HILLIER, F.S., LIEBERMAN, G.J. <b>Introduction to Operations Research.</b>, MacGraw-Hill, 2001. 
+                    </p>
+                    <p>
+                    	TAHA, H.A., <b>Pesquisa Operacional</b>, 8. ed. Pearson Prentice Hall, 2008.
+                    </p>
+                    <p>
+                        WINSTON, W. <b>Operations Reseach, Applications and Algorithms.</b> Duxbury Press, 2003.  
+                    </p>
+                    
+
+</div>
+
+				
+<div id="footer">
+
+</div>
+</div>
+</div>
+</body>
+
+</html>
