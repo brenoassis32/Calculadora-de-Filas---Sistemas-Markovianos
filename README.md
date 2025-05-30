@@ -3,6 +3,7 @@
 Implementação WEB para obtenção das principais métricas de Teoria de Filas para sistemas com processos de chegadas e serviços Markovianos. Para utilizar basta baixar o repositório e abrir qualquer página HTML em seu browser preferido. Estão disponíveis os seguintes Sistemas Especializados de Filas de Poisson:
 
 ## M/M/1:GD/+∞/+∞
+<img src="https://github.com/brenoassis32/new/blob/master/20250529_222407.gif"/>
 Descrição: Sistema com processos de chegada e serviço markovianos, com um único servidor, disciplina de filas genérica, comprimento de fila ilimitado e população infinita. Disponível em mm1.html!
 
 ## M/M/1:GD/N/+∞
