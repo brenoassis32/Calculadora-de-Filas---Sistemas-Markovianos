@@ -24,3 +24,6 @@ HILLIER, F.S., LIEBERMAN, G.J. Introduction to Operations Research., MacGraw-Hil
 TAHA, H.A., Pesquisa Operacional, 8. ed. Pearson Prentice Hall, 2008.
 
 WINSTON, W. Operations Reseach, Applications and Algorithms. Duxbury Press, 2003.
+
+Toda parte escrita em HTML5 e CSS3 foi adaptada do curso do professor Gustavo Guanabara e pode ser visto em :
+https://github.com/gustavoguanabara/html-css/tree/master
