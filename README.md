@@ -11,9 +11,11 @@ Descrição: Sistema com processos de chegada e serviço markovianos, com um ún
 Descrição: Sistema com processos de chegada e serviço markovianos, com um único servidor, disciplina de filas genérica, comprimento do sistema N e população infinita. Disponível em mm1n.html!
 
 ## M/M/c:GD/+∞/+∞
+<img src="https://github.com/brenoassis32/new/blob/master/20250530_131628.gif"/>
 Descrição: Sistema com processos de chegada e serviço markovianos, com c servidores em paralelo, disciplina de filas genérica, comprimento do sistema ilimitado e população infinita. Disponível em mmc.html!
 
 ## M/M/c:GD/N/+∞
+<img src="https://github.com/brenoassis32/new/blob/master/20250530_135430.gif"/>
 Descrição: Sistema com processos de chegada e serviço markovianos, c servidores em paralelo, disciplina de filas genérica, comprimento do sistema N e população infinita. Disponível em mmcn.html!
 
 ## Referências
