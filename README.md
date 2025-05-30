@@ -7,6 +7,7 @@ Implementação WEB para obtenção das principais métricas de Teoria de Filas 
 Descrição: Sistema com processos de chegada e serviço markovianos, com um único servidor, disciplina de filas genérica, comprimento do sistema ilimitado e população infinita. Disponível em mm1.html!
 
 ## M/M/1:GD/N/+∞
+<img src="https://github.com/brenoassis32/new/blob/master/20250530_113527.gif"/>
 Descrição: Sistema com processos de chegada e serviço markovianos, com um único servidor, disciplina de filas genérica, comprimento do sistema N e população infinita. Disponível em mm1n.html!
 
 ## M/M/c:GD/+∞/+∞
