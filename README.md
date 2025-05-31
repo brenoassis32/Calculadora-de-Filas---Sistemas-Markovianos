@@ -3,19 +3,19 @@
 Implementação WEB para obtenção das principais métricas de Teoria de Filas para sistemas com processos de chegadas e serviços Markovianos. Para utilizar basta baixar o repositório e abrir qualquer página HTML em seu browser preferido. Estão disponíveis os seguintes Sistemas Especializados de Filas de Poisson:
 
 ## M/M/1:GD/+∞/+∞
-<img src="https://github.com/brenoassis32/new/blob/master/20250529_222407.gif"/>
+<img src="https://github.com/brenoassis32/Calculadora-de-Filas---Sistemas-Markovianos/blob/main/_css/20250529_222407.gif"/>
 Descrição: Sistema com processos de chegada e serviço markovianos, com um único servidor, disciplina de filas genérica, comprimento do sistema ilimitado e população infinita. Disponível em mm1.html!
 
 ## M/M/1:GD/N/+∞
-<img src="https://github.com/brenoassis32/new/blob/master/20250530_113527.gif"/>
+<img src="https://github.com/brenoassis32/Calculadora-de-Filas---Sistemas-Markovianos/blob/main/_css/20250530_113527.gif"/>
 Descrição: Sistema com processos de chegada e serviço markovianos, com um único servidor, disciplina de filas genérica, comprimento do sistema N e população infinita. Disponível em mm1n.html!
 
 ## M/M/c:GD/+∞/+∞
-<img src="https://github.com/brenoassis32/new/blob/master/20250530_131628.gif"/>
+<img src="https://github.com/brenoassis32/Calculadora-de-Filas---Sistemas-Markovianos/blob/main/_css/20250530_131628.gif"/>
 Descrição: Sistema com processos de chegada e serviço markovianos, com c servidores em paralelo, disciplina de filas genérica, comprimento do sistema ilimitado e população infinita. Disponível em mmc.html!
 
 ## M/M/c:GD/N/+∞
-<img src="https://github.com/brenoassis32/new/blob/master/20250530_135430.gif"/>
+<img src="https://github.com/brenoassis32/Calculadora-de-Filas---Sistemas-Markovianos/blob/main/_css/20250530_135430.gif"/>
 Descrição: Sistema com processos de chegada e serviço markovianos, c servidores em paralelo, disciplina de filas genérica, comprimento do sistema N e população infinita. Disponível em mmcn.html!
 
 ## Referências
